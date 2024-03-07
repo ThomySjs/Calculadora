@@ -11,7 +11,7 @@ def calcular():
 window = tk.Tk()
 window.geometry("300x200")
 window.title("Calculator") 
-#La linea 15 asigna el resultado de la operación a la variable result, StrinVar es una variable diseñada para contener cadenas de texto 
+#La linea 15 asigna el resultado de la operación a la variable result, StringVar es una variable diseñada para contener cadenas de texto 
 result = tk.StringVar()
 #Crea un widget de entrada que esta anclado a la variable result
 entry = tk.Entry(window, textvariable=result)
