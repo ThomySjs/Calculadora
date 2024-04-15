@@ -6,7 +6,7 @@ def calcular():
         result.set(eval(entry.get()))
     except:
         result.set("Error")
-
+#HOla
 #Con estos comandos creamos la ventana, le asignamos el tamaño y el titulo
 window = tk.Tk()
 window.geometry("300x200")
